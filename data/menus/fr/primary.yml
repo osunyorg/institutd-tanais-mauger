@@ -1,8 +1,8 @@
 ---
 title: Menu principal
 items:
-- title: Fichiers
-  slug: fichiers
+- title: Accueil
+  slug: accueil
   target: "/fichiers/"
   kind: page
   new_tab: false
@@ -19,8 +19,8 @@ items:
   descendants_targets: []
   path: "/projects"
   file: content/fr/projects/_index.html
-- title: Personnes
-  slug: personnes
+- title: Pratiques
+  slug: pratiques
   target: "/personnes/"
   kind: page
   new_tab: false
@@ -28,8 +28,8 @@ items:
   descendants_targets: []
   path: "/persons"
   file: content/fr/persons/_index.html
-- title: Organisations
-  slug: organisations
+- title: Ils me font confiance
+  slug: ils-me-font-confiance
   target: "/organisations/"
   kind: page
   new_tab: false
@@ -37,4 +37,18 @@ items:
   descendants_targets: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
+- title: A propos
+  slug: a-propos
+  target: ''
+  kind: blank
+  new_tab: false
+  children: []
+  descendants_targets: []
+- title: Contact
+  slug: contact
+  target: ''
+  kind: blank
+  new_tab: false
+  children: []
+  descendants_targets: []
 
